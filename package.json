@@ -1,0 +1,34 @@
+{
+  "name": "tweether",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "dev": "next client",
+    "artifacts": "cp -r ./build/contracts/ ./client/web3/artifacts",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "fund-metamask": "truffle exec ./fund-metamask.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@truffle/contract": "^4.2.24",
+    "@truffle/hdwallet-provider": "^1.1.0",
+    "git": "^0.1.5",
+    "gravatar-url": "^3.1.0",
+    "moment": "^2.29.1",
+    "next": "^9.5.3",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-moment": "^1.0.0",
+    "react-toastify": "^6.0.9",
+    "web3": "^1.3.0",
+    "zeppelin-solidity": "^1.12.0"
+  },
+  "devDependencies": {
+    "babel-plugin-inline-react-svg": "^1.1.1"
+  }
+}
